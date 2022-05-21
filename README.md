@@ -8,7 +8,7 @@ This repo contains a simple meterpreter session in powershell bypassing amsi
 4. [Spanish]
 5. [Codigo Meterpreter]
 6. [Uso]
-7. Video Poc (Uso/Use]
+7. [Video Poc (Uso/Use]
 
 # English #
 # Code Meterpreter #
