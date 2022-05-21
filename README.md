@@ -2,13 +2,13 @@
 
 This repo contains a simple meterpreter session in powershell bypassing amsi
 
-1. [English)
-2. [Code Meterpreter)
-3. [Use)
-4. [Spanish)
-5. [Codigo Meterpreter)
-6. [Uso)
-7. Video Poc (Uso/Use)
+1. [English]
+2. [Code Meterpreter]
+3. [Use]
+4. [Spanish]
+5. [Codigo Meterpreter]
+6. [Uso]
+7. Video Poc (Uso/Use]
 
 # English #
 # Code Meterpreter #
